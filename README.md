@@ -8,4 +8,4 @@
 * 编译步骤 https://github.com/dou4cc/goproxy/blob/wiki/HowToBuild.md
 
 ## 警告
-欢迎fork，但请勿star本项目！
+* 欢迎fork，但请勿star本项目！
