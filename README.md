@@ -1,5 +1,5 @@
 ## GoProxy
-# *欢迎fork，但请勿star本项目！*
+# 欢迎fork，但请勿star本项目！
 
 * 讨论区 https://github.com/dou4cc/goproxy/issues?q=sort:updated-desc+is:open
 
