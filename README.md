@@ -1,7 +1,6 @@
 ## GoProxy
-# 欢迎fork，但请勿star本项目！
 
-* [讨论区](../../issues?q=sort:updated-desc+is:open)
+* [讨论区](../../issues/?q=sort:updated-desc+is:open)
 
 ### 文档
 * [简易教程](../wiki/SimpleGuide.md)
