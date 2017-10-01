@@ -1,6 +1,6 @@
-配置介绍(非官方版本)
+## 配置介绍（第三方版本）
 
-## 前言   
+### 前言   
 
 　　以 r1523 版为准。以后版本有出入再修改。这是新人入门用的，不是最详细的配置介绍，以能运行能用为准。最主要的配置文件为 httpproxy.json 和 gae.json 。没有写到的地方(选项或者配置文件)一般不要修改，如要修改，前提是你理解它的具体作用或者用途。   
 　　注：   
@@ -39,7 +39,7 @@ f．不要使用 Windows 系统自带的 "记事本" 来修改任何配置文件
 g．支持双斜杠 "//" 作为注释符号。去掉注释符号即使用，加上注释符号即关闭该功能。   
 h．有很多功能的开启都是跨越几个配置文件，且有好多个参数影响。切记。   
 
-## httpproxy.json 配置文件
+### httpproxy.json 配置文件
 
 GoProxy 代理设置   
 
@@ -133,7 +133,7 @@ GoProxy 代理设置
 >	```
 >
 
-## gae.json 配置文件
+### gae.json 配置文件
 
 GAE 代理配置。   
 
@@ -492,7 +492,7 @@ GAE 代理配置。
 >	>作用: 重试次数。   
 >
 
-## php.json 配置文件
+### php.json 配置文件
 
 PHP 代理配置。   
 
@@ -605,7 +605,7 @@ PHP 代理配置。
 >	>作用：最大闲置连接数目。   
 >
 
-## auth.json 配置文件
+### auth.json 配置文件
 
 代理认证设置 ---- 代理监听端口暴露在公网时最好启用认证。   
 
@@ -621,7 +621,7 @@ PHP 代理配置。
 >作用：白名单。
 >
 
-## autoproxy.json 配置文件
+### autoproxy.json 配置文件
 
 自动代理配置。包含 SiteFilters 、 pac 和 gfwlist 等模式。   
 
@@ -763,7 +763,7 @@ PHP 代理配置。
 >	```
 >
 
-## autorange.json 配置文件
+### autorange.json 配置文件
 
 文件(特定范围)自动分段传输(下载)。----用于加速传输(下载)。   
 
@@ -798,7 +798,7 @@ PHP 代理配置。
 * "Threads" 选项
 >作用：线程数。   
 
-## direct.json 配置文件
+### direct.json 配置文件
 
 直连配置。   
 
@@ -885,7 +885,7 @@ PHP 代理配置。
 
 * (无用项--只作格式化用)
 
-## ratelimit.json 配置文件--(r1185取消)
+### ratelimit.json 配置文件--(r1185取消)
 
 限速配置。
 
@@ -898,7 +898,7 @@ PHP 代理配置。
 * "Capacity" 选项
 >作用：
 
-## rewrite.json 配置文件
+### rewrite.json 配置文件
 
 ( HTTP 头域)重写配置。   
 
@@ -941,7 +941,7 @@ PHP 代理配置。
 >"X-Online-Host" 字段 配合 autoproxy.json 配置文件里的 "MobileConfig" 选项 使用。
 >
 
-## stripssl.json 配置文件
+### stripssl.json 配置文件
 
 SSL 证书相关设置。   
 
@@ -971,7 +971,7 @@ SSL 证书相关设置。
 * "Sites" 选项
 >作用：域名筛选。   
 
-## ssh2.json 配置文件
+### ssh2.json 配置文件
 
 ssh2 前置代理配置。   
 
@@ -996,7 +996,7 @@ ssh2 前置代理配置。
 >	```
 >
 
-## vps.json 配置文件
+### vps.json 配置文件
 
 VPS 代理配置。   
 
@@ -1013,19 +1013,19 @@ VPS 代理配置。
 
 * (无用项--只作格式化用)
 
-## addto-startup.vbs 脚本文件
+### addto-startup.vbs 脚本文件
 
 >用途：设置 GoProxy 开机启动。( Windows 系统)   
 
-## get-latest-goproxy.cmd 批处理文件
+### get-latest-goproxy.cmd 批处理文件
 
 >用途：升级到最新版。( Windows 系统)   
 
-## get-latest-goproxy.sh 脚本文件
+### get-latest-goproxy.sh 脚本文件
 
 >用途：升级到最新版。( linux freebsd macos )   
 
-## ip.html 页面文件
+### ip.html 页面文件
 
 >用途：提取并格式化 IP 。   
 >
@@ -1050,7 +1050,7 @@ VPS 代理配置。
 >	```
 >
 
-## gae.user.json.example 文件
+### gae.user.json.example 文件
 
 >用途：gae.user.json 样本文件。
 >
