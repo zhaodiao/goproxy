@@ -4,6 +4,6 @@
 * [讨论区](../../issues?q=sort:updated-desc+is:open)
 
 ### 文档
-* 简易教程 https://github.com/dou4cc/goproxy/blob/wiki/SimpleGuide.md
-* 配置介绍 https://github.com/dou4cc/goproxy/blob/wiki/ConfigIntroduce.md
-* 编译步骤 https://github.com/dou4cc/goproxy/blob/wiki/HowToBuild.md
+* [简易教程](../wiki/SimpleGuide.md)
+* [配置介绍](../wiki/ConfigIntroduce.md)
+* [编译步骤](../wiki/HowToBuild.md)
