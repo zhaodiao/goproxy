@@ -1,14 +1,11 @@
 ## 简易教程
 
-- 部署
+### 部署
+- 申请[Google Appengine](https://appengine.google.com/)并创建AppID
+- 下载goproxy-gae-r*XX*.tar.xz
+- 运行uploader.bat或uploader.py，按提示操作
 
-  1. 申请 [Google Appengine](https://appengine.google.com) 并创建 appid。
-  1. 到 https://github.com/dou4cc/goproxy/releases/latest 下载 goproxy-gae-rXX.zip 服务端部署文件。
-  1. 运行 uploader.bat 或 uploader.py 开始上传, 过程中需访问 google 页面并输入授权码， 上传完成后即可使用了。
-
-- 使用
-
-  * 下载 goproxy 正式版 [https://git.io/goproxy](https://github.com/dou4cc/goproxy/releases), 复制 gae.json 为 gae.user.json 并填入部署完成的 appid
-  * Windows 用户推荐使用 goproxy-gui.exe 托盘图标设置 IE 代理(对其它浏览器也有效)。
-  * Chrome/Firefox/Opera 请安装 [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases) 插件
-  * 出现连接不上的情况可以尝试使用 [gscan_quic](https://github.com/Kisesy/gscan_quic) 测速。
+### 使用
+- [gscan-quic](https://github.com/Kisesy/gscan_quic/)使用[QUIC](https://zh.wikipedia.org/zh-cn/QUIC)扫描IP
+- [XX-Net/XX-Net-dev#33](https://github.com/XX-Net/XX-Net-dev/issues/33)提供持续更新的Google IP库
+- [配置好的GoGoTunnel+GoProxy](https://raw.githubusercontent.com/dou4cc/resource/master/fq.7z.zip)
