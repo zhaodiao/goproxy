@@ -4,7 +4,7 @@
 > GoProxy是Phus Lu对GoAgent的重写，设计理念和使用习惯一脉相承。
 
 - 需要重新上传服务端吗?
-> 需要, 老服务端不兼容。
+> 需要，老服务端不兼容。
 
 - GoProxy的原理？
 > ![image](https://cloud.githubusercontent.com/assets/195836/4602738/ac950aba-5149-11e4-8976-a2606ba08e05.png)
