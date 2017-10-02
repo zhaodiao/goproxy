@@ -1,5 +1,5 @@
 ## GoProxy
-# 且行且珍惜，请勿star！
+
 
 * [讨论区](../../issues/?q=sort:updated-desc+is:open)
 
