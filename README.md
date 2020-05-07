@@ -53,6 +53,6 @@ windows 点击 goproxy-gui.exe 运行，Linux 直接 cd 到文件夹 ./goproxy �
 
 ## goproxy php 默认的代理主机端口是:
 
-http 127.0.0.1 8088 //建议配合 Proxy SwitchyOmega 使用
+http 127.0.0.1 8088 //建议配合 Proxy SwitchyOmega 使用，**注意代理协议**是**http**
 
 ### 安装证书同XX-Net，这里就不多讲了。
