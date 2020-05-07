@@ -20,7 +20,7 @@ https://dashboard.heroku.com/new-app?template=https://github.com/zhaodiao/goprox
 ## goproxy 的使用方法
 ### 修改 goproxy 目录下的 php.json 文件中的 Url
 可以填写多个app
-`
+```
 {
 	"Servers": [
 		{
@@ -36,16 +36,16 @@ https://dashboard.heroku.com/new-app?template=https://github.com/zhaodiao/goprox
 			"Host": "",
 		}
 	],
-`
+```
 
 ### 修改 httpproxy.json 文件
-
+```
 ​	    "Default": {
 ​		    "Enabled": false, //这个是默认的gae模式，关闭或打开都可以，俺是关闭的
 
 ​	    "PHP": {
 ​		    "Enabled": true,  //这个必须改成 true 打开
-
+```
 修改完上面两处就可以运行 goproxy，
 windows 点击 goproxy-gui.exe 运行，Linux 直接 cd 到文件夹 ./goproxy ，
 
