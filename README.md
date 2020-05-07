@@ -1,5 +1,3 @@
-因为用的是免费空间，希望大家尽量不要折腾大流量的东东，比如用于下载和视频。
-
 # goproxy-php模式简解
 ## goproxy下载 
 
@@ -55,4 +53,6 @@ windows 点击 goproxy-gui.exe 运行，Linux 直接 cd 到文件夹 ./goproxy �
 
 http 127.0.0.1 8088 //建议配合 Proxy SwitchyOmega 使用，**注意代理协议**是**http**
 
-### 安装证书同XX-Net，这里就不多讲了。
+安装证书同XX-Net，这里就不多讲了。
+
+来源 https://yeahwu.com/posts/goproxy_heroku_proxy.html
