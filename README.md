@@ -12,7 +12,9 @@
 2、访问 https://github.com/yeahwu/goproxy/tree/server.php-go
 
 3、点击 Readme.md 页面下面紫色 <deploy to heroku>
+	
 https://dashboard.heroku.com/new-app?template=https://github.com/yeahwu/goproxy/tree/server.php-go
+	
 https://dashboard.heroku.com/new-app?template=https://github.com/zhaodiao/goproxy/tree/server.php-go
 
 4、输入你想要的名称，服务器随意 US 或 EU
